@@ -17,9 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         initViews();
         autoBindBaiduYunTuiSong();
-
     }
-
     private void autoBindBaiduYunTuiSong() {
         PushManager.startWork(getApplicationContext(),PushConstants.LOGIN_TYPE_API_KEY,"AVdvW9tkOXQmdZH2TLwjvNAX");
     }
