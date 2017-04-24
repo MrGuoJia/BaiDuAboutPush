@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         initViews();
         autoBindBaiduYunTuiSong();
+
     }
 
     private void autoBindBaiduYunTuiSong() {

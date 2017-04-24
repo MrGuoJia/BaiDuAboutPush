@@ -39,6 +39,7 @@ public class Utils {
                             PackageManager.GET_META_DATA);
             if (null != ai) {
                 metaData = ai.metaData;
+
             }
             if (null != metaData) {
                 apiKey = metaData.getString(metaKey);
